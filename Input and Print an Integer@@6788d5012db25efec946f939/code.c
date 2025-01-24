@@ -5,5 +5,4 @@ int main()
     printf("enter a integer:");
     scanf("%d",&a);
     printf("entered integer is:%d",&a);
-    return o;
 }
