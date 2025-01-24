@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    float a;
-    printf("enter value of a:");
-    scanf("value of a is:%f",&a);
+    float f;
+    printf("enter value of f:");
+    scanf("value of f is:%f",&f);
     return o;
 }
