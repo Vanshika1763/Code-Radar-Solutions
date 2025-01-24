@@ -5,5 +5,4 @@ int main()
     printf("enter a number:");
     scanf("value of f is:%f",&f);
     printf("the float number is:%f",f);
-    return o;
 }
