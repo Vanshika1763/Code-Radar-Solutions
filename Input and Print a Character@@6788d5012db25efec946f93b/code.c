@@ -5,5 +5,4 @@ int main()
     printf("enter character:");
     scanf("%c",&ch);
     printf("the character is:%c",ch);
-    return o;
 }
