@@ -2,7 +2,7 @@
 int main()
 {
     float f;
-    printf("enter value of f:");
-    scanf("value of f is:%f",&f);
+    scanf("enter value of f:");
+    printf("value of f is:%f",&f);
     return o;
 }
