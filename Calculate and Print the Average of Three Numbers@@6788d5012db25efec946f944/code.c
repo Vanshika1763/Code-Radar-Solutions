@@ -3,7 +3,7 @@ int main()
 {
     int a,b,c;
     float Average;
-    scanf("%a %b %c",&a,&b,&c);
+    scanf("%d %d %d",&a,&b,&c);
     Average =(a+b+c)/3;
     scanf("%f",&Average);
     printf("Average: %.2f",Average);
