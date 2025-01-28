@@ -2,10 +2,7 @@
 int main()
 {
     char s[100];
-   // int a;
-    //scanf("%d",&a);
-    //printf("%d",a);
     scanf("%s",&s);
-    printf("You entered: %s\n",s);
+    printf("You entered: %s",s);
     return 0;
 }
