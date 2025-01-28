@@ -2,8 +2,8 @@
 int main()
 {
     int a,b,sum;
-    printf("enter two integers:");
     scanf("%d %d",&a,&b);
-    sum = a+b;
-    printf("%d+%d",sum);
+    Sum = a+b;
+    printf("Sum: %d",Sum);
+    return 0;
 }
