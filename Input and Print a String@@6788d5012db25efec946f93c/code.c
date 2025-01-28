@@ -4,5 +4,5 @@ int main()
     char s[100];
     printf("enter a string:");
     scanf("%s",&s);
-    printf("entered string is :%s",&s);
+    printf("You entered :%s",s);
 }
