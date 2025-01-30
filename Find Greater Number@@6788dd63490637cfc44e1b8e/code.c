@@ -6,8 +6,11 @@ int main() {
     {
         printf("a");
     }
-    else{
+    else if(b>a){
         printf("b");
+    }
+    else{
+        printf("equal");
     }
     return 0;
 }
