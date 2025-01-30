@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-
-
 int main() {
-    //printf("%s", welcome());
     char ch;
     scanf("%c",&ch)
     if(isalpha(ch)){
@@ -13,7 +10,5 @@ int main() {
     }
     else if(0<=ch<=9)printf("Digit");
     else printf("Special Character");
-
-
     return 0;
 }
