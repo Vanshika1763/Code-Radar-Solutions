@@ -5,10 +5,12 @@ int main() {
     scanf("%c",&ch);
     if(isalpha(ch)){
         //ch=tolower(ch);
-        if(ch=='a' || ch=='e'||ch=='i'||ch=='o'|| ch=='u' ||ch='A' || ch=='E'|| ch=='I' || ch=='O'|| ch=='U')printf("Vowel");
-        else printf("Consonant");
+        if(ch=='a' || ch=='e'||ch=='i'||ch=='o'|| ch=='u' ||ch='A' || ch=='E'|| ch=='I' || ch=='O'|| ch=='U'){
+
+        printf("Vowel");}
+        else{ printf("Consonant");}
     }
-    else if(0<=ch<=9)printf("Digit");
-    else printf("Special Character");
+    else if(isdigit(ch)){printf("Digit");}
+    else{printf("Special Character");}
     return 0;
 }
