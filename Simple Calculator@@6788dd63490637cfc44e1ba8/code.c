@@ -21,9 +21,11 @@ int main()
         else{
             printf("%d",a/b);
         }
+    }
     else{
         printf("error");
     }
     return 0;
-    }
+}
+
     
