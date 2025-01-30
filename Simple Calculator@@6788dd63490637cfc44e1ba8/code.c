@@ -10,6 +10,6 @@ int main()
     mul=a*b;
     printf("%d",mul);
     div=a/b;
-    printf("%d",div);
+    printf("%f",div);
     return 0;
 }
