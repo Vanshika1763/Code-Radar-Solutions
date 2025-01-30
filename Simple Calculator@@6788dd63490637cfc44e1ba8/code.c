@@ -9,7 +9,7 @@ int main()
     printf("%d",sub);
     mul=a*b;
     printf("%d",mul);
-    div=a/b;
-    printf("%f",div);
+    div=a\b;
+    printf("%d",div);
     return 0;
 }
