@@ -5,19 +5,19 @@ int main()
     char oper;
     scanf("%d %d",&a,&b);
     scanf("%c",oper);
-    if(oper==+){
+    if(oper=='+'){
         add=a+b;
         printf("%d",add);
     }
-    else if(oper==-){
+    else if(oper=='-'){
         sub=a-b;
         printf("%d",sub);
     }
-    else if(oper==*){
+    else if(oper=='*'){
         mul=a*b;
         printf("%d",mul);
     }
-    else if(oper==/){
+    else if(oper=='/'){
         div=a/b;
         printf("%d",div);
     }
