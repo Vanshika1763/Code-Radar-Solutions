@@ -2,7 +2,7 @@
 int main()
 {
     char ch;
-    scanf("%c",&a);
+    scanf("%c",&ch);
     if(isupper(ch)){
         printf("Uppercase",ch);
     }
