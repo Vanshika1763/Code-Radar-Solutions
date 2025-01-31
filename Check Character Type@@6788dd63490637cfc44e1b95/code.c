@@ -6,10 +6,10 @@ int main()
     scanf("%c",&ch);
     scanf("%d",&a);
     if(ch>=a&&ch<=z){
-        printf("consonant");
+        printf("Consonant");
     }
     else if(ch==a||ch==e||ch==i||ch==o||ch==u){
-        printf("vowel");
+        printf("Vowel");
     }
     else if(a>=0&&a<=9){
         printf("Digit");
