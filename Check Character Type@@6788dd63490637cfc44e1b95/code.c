@@ -8,10 +8,10 @@ int main()
     if((ch>=a)&&(ch<=z)){
         printf("Consonant");
     }
-    else if(ch==a||ch==e||ch==i||ch==o||ch==u){
+    else if((ch==a)||(ch==e)||(ch==i)||(ch==o)||(ch==u)){
         printf("Vowel");
     }
-    else if(a>=0&&a<=9){
+    else if((a>=0)&&(a<=9)){
         printf("Digit");
     }
     else{
