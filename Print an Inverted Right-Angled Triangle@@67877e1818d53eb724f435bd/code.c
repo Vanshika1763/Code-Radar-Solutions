@@ -2,6 +2,7 @@
 int main()
 {
     int N=1;
+    int i;
     while(N=1){
         int i=1;
         while(i<=10){
