@@ -5,12 +5,13 @@ int main()
     int N;
     scanf("%d",&N);
     while(i==1){
-        while(i>=N){
+        int j=1;
+        while(i>=j){
             printf("*");
-            i++;
+            j++;
         }
         printf("\n");
-        N++;
+        i++;
     }
     return 0;
 }
