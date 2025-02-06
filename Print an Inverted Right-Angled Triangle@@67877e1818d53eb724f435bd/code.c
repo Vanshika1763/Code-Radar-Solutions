@@ -4,7 +4,7 @@ int main()
     int i=N;
     while(i>=1){
         int j=1;
-        while(j>=i){
+        while(j<=i){
             printf("*");
             j++;
         }
