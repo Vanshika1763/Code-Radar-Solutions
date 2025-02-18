@@ -9,9 +9,9 @@ int main() {
     
     // Check if the MSB is set (1) or not (0)
     if (num & (1 << 31)) {
-        printf("The MSB is set (1).\n");
+        printf("Set");
     } else {
-        printf("The MSB is not set (0).\n");
+        printf("Not Set");
     }
     
     return 0;
