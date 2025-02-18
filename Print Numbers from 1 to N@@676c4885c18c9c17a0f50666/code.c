@@ -6,4 +6,3 @@ while (i < n) {
  i++; // i++ for increment and i–- for decrement
  }
 }
-O
