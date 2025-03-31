@@ -19,22 +19,3 @@ void printarray(int arr[], int n) {
     }
     printf("\n");
 }
-
-int main() {
-    int n;
-    printf("Enter the number of elements: ");
-    scanf("%d", &n);
-    
-    int arr[n];
-    printf("Enter %d elements: ", n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-    
-    bubblesort(arr, n);
-    
-    printf("Sorted array: ");
-    printarray(arr, n);
-    
-    return 0;
-}
