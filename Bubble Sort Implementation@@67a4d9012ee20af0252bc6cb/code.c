@@ -10,3 +10,12 @@ int bubbleSort(int arr[], int n) {
  }
  }
  } }
+int main() {
+ int arr[];
+ int n = sizeof(arr) / sizeof(arr[0]);
+ bubbleSort(arr, n);
+ printf("Sorted array: ");
+ for (int i = 0; i < n; i++) {
+ printf("%d ", arr[i]);
+ }
+ return 0; }
