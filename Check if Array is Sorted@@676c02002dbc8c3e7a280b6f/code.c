@@ -12,6 +12,6 @@ int main()
             return 0;
         }
     }
-          printf("Sorted \n");
+     printf("Sorted \n");
     return 0;
 }
