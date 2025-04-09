@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int n,arr[n];
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[n]);
+    }
+    for(int i=o;i<n-1;i++){
+        if(arr[i]>arr[i+1]){
+            printf("Not Sorted \n");
+        }
+    }
+    printf("Sorted \n");
+    return 0;
+}
