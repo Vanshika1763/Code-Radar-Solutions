@@ -17,7 +17,7 @@ int main() {
     }
 
     for (int i = 0; i < size; i++) {
-        if (array[i] > largest) {
+        if (arr[i] > largest) {
             second_largest = largest;
             largest = array[i];
         } else if (array[i] > second_largest && array[i] != largest) {
