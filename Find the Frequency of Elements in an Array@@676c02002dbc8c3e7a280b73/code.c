@@ -10,7 +10,7 @@ int main() {
         visited[i] = 0;
     }
 
-    printf("Element\tFrequency\n");
+    printf("Element Frequency\n");
 
     for (int i = 0; i < n; i++) {
         if (visited[i] == 1) {
