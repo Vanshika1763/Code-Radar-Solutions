@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int arr[] = {1, 2, 2, 3, 4, 3, 1, 4, 4};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
     int visited[n];
 
     // Initialize the visited array to 0
