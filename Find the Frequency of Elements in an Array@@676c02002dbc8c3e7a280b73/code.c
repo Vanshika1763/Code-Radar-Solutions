@@ -24,7 +24,7 @@ int main() {
                 visited[j] = 1; // Mark duplicates as visited
             }
         }
-        printf("%d\t%d\n", arr[i], count); // Print the element and its frequency
+        printf("%d %d\n", arr[i], count); // Print the element and its frequency
     }
 
     return 0;
