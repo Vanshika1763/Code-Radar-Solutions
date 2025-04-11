@@ -14,7 +14,7 @@ int main()
         else{
             return -1;
         }
-        printf("%d",arr[i]);
     }
+    printf("%d",arr[i]);
     return 0;
 }
