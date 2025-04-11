@@ -22,7 +22,7 @@ int main() {
             second_largest=arr[i];
         }
     }
-    if(second_largest==arr[i]){
+    if(second_largest==INT_MIN){
         printf("-1\n");
     }
     else{
