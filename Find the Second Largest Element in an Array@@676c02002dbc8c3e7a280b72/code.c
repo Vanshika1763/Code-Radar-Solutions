@@ -2,9 +2,9 @@
 #include <limits.h> // For INT_MIN
 
 int main() {
-    int n;
-    scanf("%d",&n);
-    int arr[n];
+    int size;
+    scanf("%d",&size);
+    int arr[size];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
