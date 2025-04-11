@@ -2,7 +2,7 @@
 #include <limits.h> // For INT_MIN
 
 int main() {
-    int size;
+    int size,i;
     scanf("%d",&size);
     int arr[size];
     for(int i=0;i<size;i++){
@@ -22,7 +22,6 @@ int main() {
             second_largest=arr[i];
         }
     }
-    int i;
     if(second_largest==arr[i]){
         printf("-1\n");
     }
