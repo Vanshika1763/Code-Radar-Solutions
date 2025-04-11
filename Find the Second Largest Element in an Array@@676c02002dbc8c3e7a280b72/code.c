@@ -1,12 +1,9 @@
-#include<stdio.h>
-int main()
-{
-    int i,n;
-    scanf("%d",&n);
-    int arr[n];
-    for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
+#include <stdio.h>
+#include <limits.h> // For INT_MIN
+
+int main() {
+    int array[] = {10, 20, 4, 45, 99}; // Example array
+    int size = sizeof(array) / sizeof(array[0]);
     int largest = INT_MIN; // Initialize largest to the smallest possible value
     int second_largest = INT_MIN; // Initialize second largest to the smallest possible value
 
