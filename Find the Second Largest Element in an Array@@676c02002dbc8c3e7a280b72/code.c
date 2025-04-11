@@ -13,7 +13,7 @@ int main() {
     if(size<2){
         printf("-1\n");
     }
-    for(i=0;i<size;i++){
+    for(int i=0;i<size;i++){
         if(arr[i]>largest){
             second_largest=largest;
             largest=arr[i];
