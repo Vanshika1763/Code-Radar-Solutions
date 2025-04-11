@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h> // For INT_MIN
 
 int main() {
     int size;
